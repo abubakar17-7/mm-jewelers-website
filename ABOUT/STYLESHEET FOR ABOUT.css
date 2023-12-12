@@ -1,0 +1,144 @@
+<style>
+
+	.HEADER
+	{
+		background-color: #f1f1f1;
+		text-align: center;
+	}
+
+	.NAVIGATION-BAR
+	{
+		background-color: #333333;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+
+	.NAV-BUTTON
+	{
+		display: inline-block;
+		position: relative;
+	}
+
+	.NAV-BUTTON>a
+	{
+		background-color: #333333;
+		color: #ffffff;
+		display: block;
+		padding: 16px 32px;
+		text-decoration: none;
+	}
+
+	.NAV-BUTTON>a:hover
+	{
+		background-color: #f1f1f1;
+		color: #000000;
+	}
+
+	.NAV-BUTTON-LIST
+	{
+		box-shadow: 0px 8px 8px 8px rgba(0,0,0,0.2);
+		display: none;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.NAV-BUTTON-LIST>a
+	{
+		background-color: #ffffff;
+		color: #000000;
+		display: block;
+		padding: 12px 16px;
+		text-decoration: none;
+	}
+
+	.NAV-BUTTON-LIST>a:hover
+	{
+		background-color: #f1f1f1;
+	}
+
+	.NAV-BUTTON:hover .NAV-BUTTON-LIST
+	{
+		display: block;
+	}
+
+	.BODY
+	{
+		float: left;
+		background-color: #ffffff;
+		height: auto;
+		width: 100%;
+	}
+
+	.ABOUT
+	{
+		font-size:150%;
+		float: left;
+		height: auto;
+		width: 50%;
+		padding: 2%;
+	}
+
+	.PIC
+	{
+		float: right;
+		height: auto;
+		width: 40%;
+		padding: 3%;
+	}
+
+	.FOOTER
+	{
+		background-color: #f1f1f1;
+	}
+
+	.FOOTER-DIVS
+	{
+		position: relative;
+		padding-top: 5%;
+		padding-left: 1.5%;
+		padding-bottom: 5%;
+		width: 18%;
+		display: inline-block;
+	}
+
+	.FOOTER-DIVS>a
+	{
+		color: #666666;
+		display: block;
+		text-decoration: none;
+	}
+
+	input[type="email"]
+	{
+		width: 90%;
+		height: 20px;
+		padding: 5px 10px;
+		border: 1px solid #dadada;
+		color: #888;
+	}
+
+	.SUBSCRIBE
+	{
+		width: 50%;
+		height: 20px;
+		background-color: #000000;
+		color: #ffffff;
+		cursor: pointer;
+		font-size: 15px;
+		padding: 8px 10px;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	body
+	{
+		margin: 0;
+	}
+
+	span
+	{
+		color: 333;
+		font-size: 80%;
+	}
+</style>
