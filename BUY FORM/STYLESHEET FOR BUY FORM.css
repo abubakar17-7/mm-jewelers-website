@@ -1,0 +1,251 @@
+<style>
+
+	.HEADER
+	{
+		background-color: #f1f1f1;
+		text-align: center;
+	}
+
+	.NAVIGATION-BAR
+	{
+		background-color: #333333;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+
+	.NAV-BUTTON
+	{
+		display: inline-block;
+		position: relative;
+	}
+
+	.NAV-BUTTON>a
+	{
+		background-color: #333333;
+		color: #ffffff;
+		display: block;
+		padding: 16px 32px;
+		text-decoration: none;
+	}
+
+	.NAV-BUTTON>a:hover
+	{
+		background-color: #f1f1f1;
+		color: #000000;
+	}
+
+	.NAV-BUTTON-LIST
+	{
+		box-shadow: 0px 8px 8px 8px rgba(0,0,0,0.2);
+		display: none;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.NAV-BUTTON-LIST>a
+	{
+		background-color: #ffffff;
+		color: #000000;
+		display: block;
+		padding: 12px 16px;
+		text-decoration: none;
+	}
+
+	.NAV-BUTTON-LIST>a:hover
+	{
+		background-color: #f1f1f1;
+	}
+
+	.NAV-BUTTON:hover .NAV-BUTTON-LIST
+	{
+		display: block;
+	}
+
+	.BODY
+	{
+		float: left;
+		height: auto;
+		padding: 1%;
+		width: 100%;
+	}
+
+	.PERSONAL
+	{
+		float: left;
+		height: auto;
+		width: 60%;
+		padding-right: 15px;
+		padding-left: 15px;
+		border: 1px solid #dadada;
+		margin: 1% 0% 0% 5% ;
+	}
+
+	.required
+	{
+		color: red;
+	}
+
+	label, table
+	{
+		display: block;
+		margin: 15px;
+	}
+
+	label>span
+	{
+		float: left;
+		width: 25%;
+		margin-top: 12px;
+		padding-right: 10px;
+	}
+
+	input[type="text"], input[type="tel"], input[type="email"], select
+	{
+		width: 70%;
+		height: 30px;
+		padding: 5px 10px;
+		margin-bottom: 10px;
+		border: 1px solid #dadada;
+		color: #888;
+	}
+
+	select
+	{
+		width: 70%;
+		height: 45px;
+		padding: 5px 10px;
+		margin-bottom: 10px;
+	}
+
+	.ORDER
+	{
+		float: right;
+		width: 20%;
+		margin: 1% 5% 0% 0% ;
+		height: auto;
+		padding: 20px;
+		border: 1px solid #dadada;
+	}
+
+	table
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+	th
+	{
+		border-bottom: 1px solid #dadada;
+		padding: 10px 0;
+	}
+
+	tr>td:nth-child(1)
+	{
+		text-align: left;
+		color: #2d2d2a;
+	}
+
+	tr>td:nth-child(2)
+	{
+		text-align: right;
+		color: #52ad9c;
+	}
+
+	td
+	{
+		border-bottom: 1px solid #dadada;
+		padding: 25px 50px 25px 25px;
+	}
+
+	p
+	{
+		display: block;
+		color: #888;
+		margin: 0;
+		padding-left: 25px;
+	}
+
+	.ORDER>div
+	{
+		padding: 15px 0; 
+	}
+
+	.BUTTON
+	{
+		background-color: #000000;
+		border: none;
+		color: #ffffff;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+
+	.BUTTON:hover
+	{
+		background-color: #ffffff;
+		border: none;
+		color: #000000;
+		padding: 16px 32px;
+		text-decoration: none;
+		box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.2);
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+
+	.FOOTER
+	{
+		background-color: #f1f1f1;
+	}
+
+	.FOOTER-DIVS
+	{
+		position: relative;
+		padding-top: 5%;
+		padding-left: 1.5%;
+		padding-bottom: 5%;
+		width: 18%;
+		display: inline-block;
+	}
+
+	.FOOTER-DIVS>a
+	{
+		color: #666666;
+		display: block;
+		text-decoration: none;
+	}
+
+	.FOOTER-DIVS>input[type="email"]
+	{
+		width: 90%;
+		height: 20px;
+		padding: 5px 10px;
+		border: 1px solid #dadada;
+		color: #888;
+	}
+
+	.SUBSCRIBE
+	{
+		width: 50%;
+		height: 20px;
+		background-color: #000000;
+		color: #ffffff;
+		cursor: pointer;
+		font-size: 15px;
+		padding: 8px 10px;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	body
+	{
+		margin: 0;
+	}
+
+	h2
+	{
+		text-align: center;
+	}
+
+</style>
